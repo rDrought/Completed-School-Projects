@@ -22,23 +22,23 @@ public class Main {
         // ***
         // Exercise 1
         // ***
-        // ITemperatureSensor o1 = new OldTempSensorAdapter();
+        ITemperatureSensor o1 = new OldTempSensorAdapter();
 
         // Creating a new OldTemp Hardware Device and passing a TemperatureSensor in it
-        // OldSensorDevice olddev = new OldSensorDevice(o1);
+        OldSensorDevice olddev = new OldSensorDevice(o1);
         // Start the scenario
-        // olddev.start();
+        olddev.start();
         // **** NEW *****
-        // System.out.println("Last reading sent from device was " + o1.getReading());
+        System.out.println("Last reading sent from device was " + o1.getReading());
 
         // ***
         // Exercise 2
         // ***
 
-        // polarbear n = new BearMinimum();
-        // n = new PurifierDecorator(n);
-        // n = new WiFIDecorator(n);
-        // n.turnOn();
+        polarbear n = new BearMinimum();
+        n = new PurifierDecorator(n);
+        n = new WiFIDecorator(n);
+        n.turnOn();
 
         // ***
         // Exercise 3
