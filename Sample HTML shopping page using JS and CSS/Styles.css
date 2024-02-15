@@ -1,0 +1,188 @@
+hr{
+	border: 0;
+	height: 1px;
+	background-color: #ccc;
+	margin: 20px 0;
+}
+
+.search-and-cart{
+	display:flex;
+	justify-content: space-between;
+	align-items: right;
+	margin-bottom: 20px;
+}
+
+
+nav {
+    text-align: center; /* Center-align the navigation links */
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px; /* Add padding around the links */
+    margin: 0 10px; /* Add margin between the links */
+    text-decoration: none; /* Remove underline from the links */
+    color: #333; /* Set font color for normal state */
+    font-size: 18px; /* Set font size for the links */
+}
+
+nav a:hover {
+    color: #4CAF50; /* Set font color for hover state */
+    background-color: #f0f0f0; /* Set background color for hover state */
+    border-radius: 5px; /* Add border-radius for rounded corners on hover */
+}
+
+.search-bar{
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+.search-bar input[type="text"] {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+.search-bar button {
+	padding: 5px 10px; /* Adjust padding as needed */
+    background-color: red; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Border radius */
+    cursor: pointer; /* Cursor style */
+    margin-left: 5px; /* Add space between input and button */
+}
+
+.cart-button {
+	display: block;
+	margin: 10px auto;
+	padding: 5px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.cart-button img{
+	width: 60px;
+	height: 60px;
+}
+
+.view-cart {
+	padding: 10px 40px; /* Adjust padding as needed */
+    background-color: mediumpurple; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Button border radius */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Button font size */
+    margin-left: 40px;
+}
+    
+
+.view-cart:hover {
+    background-color: #45a049; /* Button background color on hover */
+}
+
+.shoe-images{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.shoe-images div{
+	display: flex;
+	align-items: flex-start;
+	margin-right: 20px;
+}
+
+.shoe-images img {
+    width: 400px; /* Adjust the width of the shoe images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add space between the images */
+}
+
+.shoe-info {
+	display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack h3 elements vertically */
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.shoe-info p{
+	margin-top: 5px;
+	font-size: 50px;
+}
+
+.shoe-info h3{
+	margin: 0;
+	font-size: 40px;
+}
+
+.shoe-info h5{
+	font-size: 20px;
+}
+
+.shoe-info ul{
+	font-size: 20px;
+}
+
+.shoe-info .add-to-cart {
+	padding: 10px 40px; /* Adjust padding as needed */
+    background-color: mediumpurple; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Button border radius */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Button font size */
+    
+}
+
+.shoe-info .add-to-cart:hover {
+    background-color: #45a049; /* Button background color on hover */
+}
+
+
+.form-section {
+    font-size: 20px; /* Increase font size */
+    margin-right: 20px; /* Add margin-right for spacing */
+
+}
+
+.form-section select {
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px; /* Increase font size */
+}
+
+.form-section {
+	text-align: center;
+}
+
+.similar-products {
+    text-align: left; /* Center-align the content */
+    margin-top: 20px; /* Add margin at the top for spacing */
+    font-size: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center; /* Center-align the product items horizontally */
+    gap: 20px; /* Add space between product items */
+    margin-top: 20px; /* Add margin at the top for spacing */
+}
+
+.product-item {
+    max-width: 200px; /* Set maximum width for each product item */
+}
+
+.product-item img {
+    width: 100%; /* Make the image fill its container */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.product-item h3 {
+    margin-top: 10px; /* Add margin at the top for spacing */
+}
