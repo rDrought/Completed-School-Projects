@@ -1,3 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .search-and-cart {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-bar {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .search-bar input[type="text"] {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cart-button {
+        margin: 10px 0;
+    }
+
+    .view-cart {
+        margin-left: 0;
+    }
+
+    .shoe-images {
+        flex-direction: column;
+    }
+
+    .shoe-images div {
+        margin-right: 0;
+    }
+
+    .shoe-info {
+        margin-right: 0;
+    }
+
+    .shoe-info p {
+        font-size: 30px;
+    }
+
+    .shoe-info h3 {
+        font-size: 25px;
+    }
+
+    .shoe-info h5 {
+        font-size: 15px;
+    }
+
+    .shoe-info ul {
+        font-size: 15px;
+    }
+
+    .shoe-info .add-to-cart {
+        font-size: 14px;
+    }
+
+    .form-section {
+        margin-right: 0;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-item {
+        max-width: 100%;
+    }
+
+    .product-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.search-and-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
 hr{
 	border: 0;
 	height: 1px;
